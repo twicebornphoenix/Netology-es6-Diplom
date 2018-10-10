@@ -5,7 +5,7 @@ function loadLevels() {
     const xhr = new XMLHttpRequest();
     let url = './levels.json';
     if (location.hostname !== 'localhost') {
-      url = './levels.json';
+      url = 'https://github.com/twicebornphoenix/Netology-es6-Diplom/blob/master/levels.json';
     }
     xhr.open('GET', url);
     xhr.addEventListener('error', e => fail(xhr));
