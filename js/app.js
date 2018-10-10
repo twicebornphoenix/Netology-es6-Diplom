@@ -4,7 +4,6 @@ function loadLevels() {
   return new Promise((done, fail) => {
     const xhr = new XMLHttpRequest();
     let url = './levels.json';
-    
     xhr.open('GET', url);
     xhr.addEventListener('error', e => fail(xhr));
     xhr.addEventListener('load', e => {
