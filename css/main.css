@@ -1,5 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
 hidden {
   display: none;
+}
+
+h1 {
+ text-align: center;
 }
 
 .background {
@@ -49,6 +57,7 @@ hidden {
 }
 
 .game {
+  margin: 0 auto;
   overflow: hidden;
   max-width: 600px;
   max-height: 450px;
